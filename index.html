@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HW # 5 Таблиці, інпути та форми, семантика тегів.</title>
+</head>
+<body>
+    <div class="container">
+            <table class="table" cellspacing="0px">
+                <tr>
+                    <th>Name
+                    <select name="select" id=""></select>
+                    </th>
+                    <th class="col_2">Date</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td >File.pdf</td>
+                    <td class="col_2">3 mins.ago</td>
+                    <td class="dots_1">...</td>
+                </tr>
+                <tr>
+                    <td>File.pdf</td>
+                    <td class="col_2">Yesterday</td>
+                    <td class="dots_1">...</td>
+                </tr>
+                <tr>
+                    <td>File.pdf</td>
+                    <td class="col_2">June 1st,2019</td>
+                    <td class="dots_1">...</td>
+                </tr>
+            </table>
+            <br>
+            <table class="table" cellspacing="0px">
+                <tr>
+                    <th> 
+                        <input checked type="checkbox" name="check">
+                        Name
+                        <select name="select" id=""></select>
+                    </th>
+                    <th class="col_2">Date</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td> 
+                        <input type="checkbox" name="check">
+                        File.pdf
+                    </td>
+
+                    <td class="col_2">3 mins.ago</td>
+                    <td class="dots_2">...</td>
+                </tr>
+                <tr>
+                    <td> 
+                        <input checked type="checkbox" name="check"> 
+                        File.pdf
+                    </td>
+                    <td class="col_2">Yesterday</td>
+                    <td class="dots_2">...</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="check">  
+                        File.pdf
+                    </td>
+                    <td class="col_2">June 1st,2019</td>
+                    <td class="dots_2">...</td>
+                </tr>
+            </table>
+            <br>
+            <table class="table" cellspacing="0px">
+                <tr>
+                    <th>Name
+                        <select name="select" id=""></select>
+                    </th>
+                    <th class="col_2">Date</th>
+                    <form action="#">
+                        <th id="input_search"> 
+                           <label class="input">
+                                <img class="icon_1" src="icons/search.png" alt="search">
+                                <input class="search" type="text" name="Search" placeholder="Search">
+                            </label> 
+                        </th>
+                    </form>
+                </tr>
+                <tr>
+                    <td> <img class="icon" src="icons/inbox.png" alt="archive_icon">
+                        File.pdf   
+                    </td>
+                    <td class="col_2">3 mins.ago</td>
+                    <td class="dots_3">...</td>
+                </tr>
+                <tr>
+                    <td> <img class="icon" src="icons/inbox.png" alt="archive_icon"> 
+                        File.pdf
+                    </td>
+                    <td class="col_2">Yesterday</td>
+                    <td class="dots_3">...</td>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="icons/inbox.png" alt="archive_icon"> 
+                        File.pdf
+                    </td>
+                    <td class="col_2">June 1st,2019</td>
+                    <td class="dots_3">...</td>
+                </tr>
+            </table>
+    </div> 
+</body>
+</html>
+
+
+

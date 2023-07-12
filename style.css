@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(39, 38, 38);
+    color: rgb(175, 169, 169);
+      
+}
+.container {
+    width: 1440px;
+    height: 100%;
+    font-size: 17px; 
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+.table {
+    width: 900px;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid rgba(134, 133, 133, 0.699);
+    background-color:rgb(43, 41, 41);
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    width:300px;
+    padding: 5px;
+    height: 50px;
+    text-align: left;
+    border-bottom: 2px solid rgba(134, 133, 133, 0.699);
+    padding: 10px;
+}
+
+.table th {
+    color: rgb(207, 203, 203);
+}
+.table .col_2  {
+    padding-left: 94px;
+}
+
+.icon {
+    width: 20px;
+ 
+}
+label.icon_1 {
+    
+    height: 20px;
+    padding: 5px 5px;
+
+}
+.table td.dots_1,
+.table td.dots_2,
+.table td.dots_3{
+    text-align: right;
+    font-size: 27px;
+}
+ 
+.table td.dots_3:hover {
+    cursor: pointer;
+    color: white;
+}
+.table td.dots_2:hover{
+    cursor: pointer;
+    color: white;
+}
+label{
+    display: inline-block;
+    width: auto;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgba(99, 96, 96, 0.678);
+    border: rgba(99, 96, 96, 0.678);
+}
+label input {
+    width: auto;
+    border: none; 
+    outline: none;
+    
+}
+.search { 
+    background-color: rgba(99, 96, 96, 0.678);
+    color: rgb(185 174 174);
+}
+.search:hover {
+    cursor: pointer;
+}
+::placeholder {
+    font-size: 20px;
+    color: rgb(207, 203, 203);
+    padding-left: 10px;
+    width: auto;
+}
+#input_search {
+    text-align: right;
+}
+
